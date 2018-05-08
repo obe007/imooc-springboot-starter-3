@@ -11,6 +11,7 @@ public class Resource {
     private String name;
     private String website;
     private String language;
+    private String unicode;
 
     public String getName() {
         return name;
@@ -29,6 +30,12 @@ public class Resource {
     }
     public void setLanguage(String language) {
         this.language = language;
+    }
+    public String getUnicode(){
+        return unicode;
+    }
+    public void setUnicode(String unicode){
+        this.unicode = unicode;
     }
 
 }
