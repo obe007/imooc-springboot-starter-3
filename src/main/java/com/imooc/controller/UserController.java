@@ -19,7 +19,6 @@ class UserContoller {
     @Autowired
     private Resource resource;
 
-
     @RequestMapping("/getResource")
     public Object getResource() {
 
